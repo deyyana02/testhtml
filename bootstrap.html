@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            margin: 100px;
+            padding: 10px 0;
+            text-align: left;
+        }
+        .navbar-collapse {
+            background-color: #000; /* Latar belakang navbar hitam */
+            padding: 10px 0;
+        }
+        .navbar-collapse ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+        .navbar-collapse li {
+            display: inline;
+            margin: 0 15px;
+        }
+        .navbar-collapse a {
+            color: #fff; /* Teks navbar putih */
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .navbar-collapse a:hover {
+            text-decoration: underline;
+        }
+        .main-container {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My Website</h1>
+    </header>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="main-container">
+        <main class="content">
+            <h2>Main Content</h2>
+            <p>This is the main content area</p>
+        </main>
+
+        <aside class="sidebar">
+            <h2>Sidebar</h2>
+            <p>This is the sidebar content.</p>
+        </aside>
+
+        
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+</body>
+</html>

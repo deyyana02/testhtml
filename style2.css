@@ -1,0 +1,111 @@
+#styles.css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+ 
+h1 {
+    color: #333;
+}
+ 
+nav {
+    background-color: #333;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+ 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+ 
+.navbar li {
+    display: inline;
+}
+ 
+.navbar li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+ 
+.navbar li a:hover {
+    background-color: #111;
+}
+ 
+form {
+    margin: 0 auto;
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+ 
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+ 
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+ 
+form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+ 
+form button:hover {
+    background-color: #45a049;
+ 
+}
+ 
+.student-table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+ 
+.student-table th, .student-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+ 
+.student-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+ 
+.student-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+ 
+.student-table tr:hover {
+    background-color: #ddd;
+}
+ 
+.student-table td {
+    color: #333;
+}

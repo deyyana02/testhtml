@@ -1,0 +1,130 @@
+/* Styling untuk Title */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none; 
+}
+
+.menu li a:hover {
+    background-color:red; 
+}
+
+/* Styling untuk form registrasi */
+.registration-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+p {
+    text-align: center;
+}
+.registration-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    border: 1 solid #ddd;
+}
+
+.registration-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.registration-form button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling untuk tabel */
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.data-table thead th {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 15px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: background-color 0.3s ease;
+}
+
+.data-table th:hover {
+    background-color: #ffc107;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.data-table tbody tr:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+}
+
+.data-table tbody td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #dee2e6;
+    transition: background-color 0.3s ease;
+}
+
+.data-table tbody tr:last-child td {
+    border-bottom: none;
+}

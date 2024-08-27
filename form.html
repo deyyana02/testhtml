@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Registrasi Mahasiswa</title>
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <!-- UNTUK TITLE MENU ATAS -->
+    <nav>
+        <ul class="menu">
+            <li><a href="form.html" class="button">Form Registrasi Mahasiswa</a></li>
+            <li><a href="data.html" class="button">Data Mahasiswa</a></li>
+        </ul>
+    </nav>
+    <!-- TITLE -->
+    <h1>Form Registrasi Mahasiswa</h1>
+    <p> Isi form di bawah ini untuk mendaftarkan data mahasiswa baru</p>
+    <form action="data.html" method="GET" class="registration-form">
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" required>
+
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="jurusan">Jurusan:</label>
+        <input type="text" id="jurusan" name="jurusan" required>
+
+        <label for="semester">Semester:</label>
+        <input type="text" id="semester" name="semester" required>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html> 
